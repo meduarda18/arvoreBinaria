@@ -27,16 +27,21 @@ public class Main {
       System.out.println("-----------------------------------");
 
       arvore.removeMenor();
-      arvore.removeMenor();
-      arvore.print();
-      System.out.println(arvore.getRaiz().getEsquerda());
-      arvore.removeMenor();
-      arvore.print();
+      //arvore.removeMenor();
+      //arvore.print();
+      //System.out.println(arvore.getRaiz().getEsquerda());
+      //arvore.removeMenor();
+      //arvore.print();
       // System.out.println(arvore.getRaiz().getEsquerda().getEsquerda().getDireita());
-      System.out.println(arvore.getRaiz().getDireita());
+      //System.out.println(arvore.getRaiz().getDireita());
       //System.out.println(arvore.getRaiz().getDireita().getDireita());
       //System.out.println(arvore.getRaiz().getDireita().getEsquerda());
 
+      System.out.println(arvore.buscaRecursiva(arvore.getRaiz(), 1));
+
+      //arvore.printPreOrdem(arvore.getRaiz());
+      //arvore.printEmOrdem(arvore.getRaiz());
+      arvore.printPosOrdem(arvore.getRaiz());
 
 
 
